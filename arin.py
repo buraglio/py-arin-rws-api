@@ -255,7 +255,7 @@ class Arin:
         """Constructor
 
         Parameters
-            apikey: API-1234-2133-1312-1232
+            apikey: str arin apikey
         Returns
             None
         """
