@@ -10,6 +10,18 @@ https://www.arin.net/resources/restful-interfaces.html
 - Created: 8/30/2014
 - Revised: 12/31/2014
 
+- Revised 5/27/2015
+- Nick Buraglio
+- nick@buraglio.com
+
+Add env and requirements notes
+
+ToDo: Add some more robust instructions
+
+Requirements:
+sudo pip install requests
+
+
 Usage
 ---
 ```
