@@ -10,9 +10,10 @@ https://www.arin.net/resources/restful-interfaces.html
 - Created: 8/30/2014
 - Revised: 12/31/2014
 
-- Revised 5/27/2015
-- Nick Buraglio
-- nick@buraglio.com
+- Revised: 5/27/2015
+- Revisions by: Nick Buraglio
+- Email: nick (at) buraglio.com
+- WWW: https://www.forwardingplane.net/
 
 Add env and requirements notes
 
