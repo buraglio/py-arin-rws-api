@@ -18,6 +18,11 @@ https://www.arin.net/resources/restful-interfaces.html
 Add env and requirements notes
 
 ToDo: Add some more robust instructions
+Figure out what the heck this script actually does. 
+
+For proper usage, add your API key in place of "str arin apikey" within the "Arin" class.
+- apikey: API-1234-4567-9101-1234
+
 
 Requirements:
 sudo pip install requests

@@ -1,27 +1,6 @@
 #!/usr/bin/env python
 
-"""
-
-Python library for ARIN's REG-RWS REST API
-
-    https://www.arin.net/resources/restful-interfaces.html
-
-Author: Benton Snyder
-Website: http://bensnyde.me
-Created: 11/20/2014
-Revised: 1/1/2015
-
-Revised 5/27/2015
-Nick Buraglio
-buraglio@forwardingplane.net
-
-Add env and requirements notes
-Working to decipher the actual usage of this code.....
-
-Requirements: 
-sudo pip install requests
-
-"""
+import logging
 import requests
 
 
@@ -276,7 +255,7 @@ class Arin:
         """Constructor
 
         Parameters
-            apikey: str arin apikey
+            apikey: API-15A3-F003-4CEB-ABA3
         Returns
             None
         """
