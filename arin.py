@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 """
 
 Python library for ARIN's REG-RWS REST API
@@ -8,6 +10,16 @@ Author: Benton Snyder
 Website: http://bensnyde.me
 Created: 11/20/2014
 Revised: 1/1/2015
+
+Revised 5/27/2015
+Nick Buraglio
+buraglio@forwardingplane.net
+
+Add env and requirements notes
+Working to decipher the actual usage of this code.....
+
+Requirements: 
+sudo pip install requests
 
 """
 import requests
@@ -260,7 +272,7 @@ class MessagePayload:
                 </message""" % (self.subject, self.text, self.category, self.attachment)
 
 class Arin:
-    def __init__(self, apikey):
+    def __init__(self, apikey): 
         """Constructor
 
         Parameters
@@ -269,7 +281,7 @@ class Arin:
             None
         """
         self.apikey = apikey
-
+    
     def _api_query(self, resource, payload=None, method="GET", return_type="xml"):
         """Query ARIN API
 
